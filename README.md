@@ -18,4 +18,5 @@ Setup Instructions:
 1. Clone the repo locally using command `git clone https://github.com/rvdfox/CodeAnalysis.git`
 2. Through terminal go inside the directory.
 3. run `npm install`, it will add all dependencies.
-4. run `npm test`, it will run the unit tests present in the project.
+4. To run against a file/folder, use command `npx ts-node src/index.ts <input-path-of-file-or-folder>`.
+5. run `npm test`, it will run the unit tests present in the project.
